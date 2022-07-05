@@ -6,8 +6,13 @@
 </head>
 <body>
 <form action="LoginServlet" method="get">
-  <input type="text" name="user" placeholder="User Name"><br>
-  <input type="password" name="pwd" placeholder="Password"><br>
+  UserName : <label>
+  <input type="text" name="user" placeholder="User Name" required>
+</label>
+  <br>
+  Password :<label>
+  <input type="password" name="pwd" placeholder="Password" required></label>
+  <br>
 
   <input type="submit" value="Login" >
 </form>
